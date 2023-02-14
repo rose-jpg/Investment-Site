@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#E78A1A",
+              secondary: "#1D1D1D",
+              dimWhite:"#999999"
+            },
+          },
+        },
+        screens: {
+          xs: "480px",
+          ss: "620px",
+          sm: "768px",
+          md: "1060px",
+          lg: "1200px",
+          xl: "1700px",
+        },
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/aa19735a18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="">
+      <nav class="flex justify-between items-center h-[60px] bg-black px-4">
+        <h4 class="text-primary">LOGO</h4>
+        <div class="px-3 py-2 bg-primary">
+          <img class="w-[20px] h-[20px]" src="menu.svg" alt="" />
+        </div>
+      </nav>
+      <header class="flex justify-between py-5 px-4 bg-secondary">
+        <button
+          class="w-[165px] h-[40px] border-[1px] border-primary text-primary text-[14px]"
+        >
+          <i class="fa-solid fa-user"></i> SIGN IN
+        </button>
+        <button class="w-[165px] h-[40px] bg-primary text-white text-[14px]">
+          <i class="fa-solid fa-user-plus"></i> REGISTER
+        </button>
+      </header>
+      <div id="Hero" class="">
+        <div class="h-[300px] flex items-center flex-col text-white bg">
+          <h1
+            class="text-[30px] font-bold text-center leading-[40px] mt-[40px]"
+          >
+            <span class="text-primary">INVESTMENT</span> BROKER
+            <br class="block sm:hidden" />
+            YOU CAN <span class="text-primary">TRUST</span>
+          </h1>
+          <button
+            class="w-[120px] h-[40px] border-[1px] border-primary text-primary text-[12px] mt-[30px]"
+          >
+            GET STARTED
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col px-4">
+        <div
+          class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+        >
+          <i class="fa-solid fa-wallet icon"></i>
+          <h4 class="font-bold">Create an account</h4>
+          <p class="text-[14px]">
+            Get it on pc or mobile to create,send and recieve bitcoins
+          </p>
+        </div>
+        <div
+          class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+        >
+          <i class="fa-solid fa-sack-dollar icon"></i>
+          <h4 class="font-bold">Add Bitcoin to your wallet</h4>
+          <p class="text-[14px]">
+            Add bitcoin you have created or exchange via credit card
+          </p>
+        </div>
+        <div
+          class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+        >
+          <i class="fa-solid fa-money-bill-transfer icon"></i>
+
+          <h4 class="font-bold">Start Trading</h4>
+          <p class="text-[14px]">Trading is automatic</p>
+        </div>
+      </div>
+      <div id="about-us " class="mb-20">
+        <h1 class="text-[45px] text-white font-bold text-center">
+          ABOUT <span class="text-primary">US</span>
+        </h1>
+        <p class="text-center text-white text-[15px] mt-4">
+          A COMMERCIAL WEBSITE THAT LISTS WALLETS, EXCHANGES AND OTHER BITCOIN
+          RELATED INFO
+        </p>
+        <div class="flex flex-col px-4">
+          <img src="about-us.png" class="flex-1" alt="" />
+          <div class="flex flex-col flex-1">
+            <h2 class="my-4 text-[24px] font-bold text-white">WE ARE TRUST FX</h2>
+            <p class="text-dimWhite leading-[28px]">
+              Trust Fx is a place were we Trade for newbies and client for them
+              to start earning lucratively in the world of Crypto and stock We
+              provide the fastest trades using modern technologies. No delays in
+              order executions and most accurate quotes. Our trading platform is
+              available around the clock and on weekends. customer service is
+              available 24/7. We are continuously adding new financial
+              instruments.
+            </p>
+          <div class="my-5">
+            <button class="w-[100%] bg-primary h-[40px]  text-white">
+              OUR MISSION
+            </button>
+            <button
+              class="w-[100%] border-[1px] border-dimWhite h-[40px] text-dimWhite"
+            >
+              OUR ADVANTAGES
+            </button>
+            <button
+              class="w-[100%] h-[40px] border-[1px] border-dimWhite text-dimWhite"
+            >
+              OUR GUARANTEE
+            </button>
+          </div>
+            <p class="text-dimWhite">
+              Bitcoin is based on a protocol known as the blockchain, which
+              allows to create, transfer and verify ultra-secure financial data
+              without interference of third parties.
+            </p>
+            <button
+              class="w-[140px] h-[40px] bg-primary text-white font-bold uppercase text-[14px] mt-[30px]"
+            >
+              Read more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div class="flex flex-col bg-[#1D1D1D] flex-wrap">
+          <div class="flex justify-center items-center ">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-lock icon"></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-globe icon"></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-credit-card icon"></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-mobile icon"></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-piggy-bank icon"></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-wrap">
+            <div
+              class="flex justify-center items-center flex-col bg-[#1D1D1D] py-8 text-center text-white"
+            >
+              <i class="fa-solid fa-map-pin icon "></i>
+              <h4 class="font-bold">STRONG SECURITY</h4>
+              <p class="text-[16px] w-[250px] text-dimWhite">
+                Protection against DDoS attacks, full data encryptionc
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="h-[300px] bgg">
+
+        </div>
+      </div>
+      <div id="affordable " class="my-20">
+        <div class="mb-24">
+          <h1 class="text-[45px] text-white font-bold text-center leading-[50px]">
+            AFFORDABLE <span class="text-primary">PACKAGE</span>
+          </h1>
+          <p class="text-center text-dimWhite text-[15px] mt-4 px-4">
+            PURCHASE BITCOIN USING A CREDIT CARD OR WITH YOUR LINKED BANK ACCOUNT
+          </p>
+        </div>
+        <div class="flex flex-col px-4 bg-secondary mx-4 pb-4 pt-12  gap-8 ">
+         <div class="flex flex-col justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">PREMIUM PLAN </h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">10%</p>
+         </div>
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MINIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$5000</p>
+         </div>
+         
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MAXIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$10000</p>
+         </div>
+         <button class="w-[100%] bg-primary h-[40px]  text-white mt-6">
+          ORDER NOW
+        </button>
+        </div>
+        <div class="flex flex-col px-4 bg-secondary mx-4 pb-4 pt-12 my-4 gap-8">
+         <div class="flex flex-col justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">PREMIUM PLAN </h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">10%</p>
+         </div>
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MINIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$5000</p>
+         </div>
+         
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MAXIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$10000</p>
+         </div>
+         <button class="w-[100%] bg-primary h-[40px]  text-white mt-6">
+          ORDER NOW
+        </button>
+        </div>
+        <div class="flex flex-col px-4 bg-secondary mx-4 pb-4 pt-12   gap-8">
+         <div class="flex flex-col justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">PREMIUM PLAN </h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">10%</p>
+         </div>
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MINIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$5000</p>
+         </div>
+         
+         <div class="flex flex-col  justify-center items-center">
+          <h4 class="text-[18px] text-white font-bold tracking-[2px]">MAXIMUM</h4>
+         <p class="text-[18px] text-white font-bold tracking-[2px]">$10000</p>
+         </div>
+         <button class="w-[100%] bg-primary h-[40px]  text-white mt-6">
+          ORDER NOW
+        </button>
+        </div>
+      </div>
+      <div>
+        <div class="mb-24">
+          <h1 class="text-[45px] text-white font-bold text-center leading-[50px]">
+           BITCOIN<span class="text-primary"> CALCULATOR</span>
+          </h1>
+          <p class="text-center text-dimWhite text-[15px] mt-4 ">
+            FIND OUT THE CURRENT BITCOIN VALUE WITH OUR EASY-TO-USE CONVERTER
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="mb-24">
+          <h1 class="text-[45px] text-white font-bold text-center leading-[50px]">
+           OUR<span class="text-primary"> EXPERTS</span>
+          </h1>
+          <p class="text-center text-dimWhite text-[15px] mt-4 ">
+            A TALENTED TEAM OF CRYPTOCURRENCY EXPERTS BASED IN LONDON
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="px-4  ">
+          <img  src="member1.jpg" alt="">
+          <div class="flex justify-center items-center flex-col text-white bg-secondary p-5 border-t-[3px] border-primary">
+            <h5>JOHN WALKER</h5>
+            <p>CEO founder</p>
+          </div>
+
+        </div>
+        <div class="px-4 my-4 ">
+          <img  src="member1.jpg" alt="">
+          <div class="flex justify-center items-center flex-col text-white bg-secondary p-5 border-t-[3px] border-primary">
+            <h5>JOHN WALKER</h5>
+            <p>CEO founder</p>
+          </div>
+
+        </div>
+        <div class="px-4  ">
+          <img  src="member1.jpg" alt="">
+          <div class="flex justify-center items-center flex-col text-white bg-secondary p-5 border-t-[3px] border-primary">
+            <h5>JOHN WALKER</h5>
+            <p>CEO founder</p>
+          </div>
+
+        </div>
+        <div class="px-4  mt-4">
+          <img  src="member1.jpg" alt="">
+          <div class="flex justify-center items-center flex-col text-white bg-secondary p-5 border-t-[3px] border-primary">
+            <h5>JOHN WALKER</h5>
+            <p>CEO founder</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
