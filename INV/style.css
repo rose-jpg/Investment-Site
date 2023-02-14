@@ -1,0 +1,19 @@
+body{
+    width: 100%;
+    background-color: #111111;
+  
+}
+.bg{
+    background-color: black;
+}
+.icon{
+    font-size: 45px;
+    color: #E78A1A;
+    margin-bottom: 20px;
+}
+.bgg{
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
